@@ -98,7 +98,7 @@ else if ( pets < friendsPets){
   mostPets = friendsPets;
 }
 else if (pets === friendsPets){
-  mostPets = friendsPets + pets;
+  mostPets = pets;
 }
 console.log(mostPets);
 // 16 - Make a variable called `luckyResult`
